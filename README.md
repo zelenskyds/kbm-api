@@ -155,3 +155,29 @@ __Ответ:__
   "left": <integer>, // <количество заявок> - <offset>
 }
 ```
+
+# Изменение заявки
+
+PUT https://kbm-partner.ru/api/applications/:id
+
+`:id` - id заявки в базе
+
+__Заголовки запроса__:
+```
+Content-Type: application/json
+X-Auth: <SESSION_TOKEN>
+```
+
+__Тело запроса:__
+```JS
+{
+  "policy": <Policy>
+}
+```
+
+Посылаются только те поля, которые нужно изменить
+
+__Ответ:__
+```JS
+<Application>
+```
