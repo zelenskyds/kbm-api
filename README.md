@@ -156,7 +156,7 @@ __Ответ:__
 }
 ```
 
-# Изменение заявки
+## Изменение заявки
 
 PUT https://kbm-partner.ru/api/applications/:id
 
