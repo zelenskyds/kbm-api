@@ -39,7 +39,7 @@
 
 ## Получение токена
 
-POST: https://kbm-parnter.ru/api/sessions
+POST: https://kbm-partner.ru/api/sessions
 
 __Заголовки запроса__:
 ```
@@ -64,7 +64,7 @@ __Ответ:__
 
 ## Проверка токена
 
-GET: https://kbm-parnter.ru/api/sessions/:token
+GET: https://kbm-partner.ru/api/sessions/:token
 
 `:token` - токен
 
@@ -83,7 +83,7 @@ __Ответ:__
 
 ## Создание заявки
 
-POST https://kbm-parnter.ru/api/applications
+POST https://kbm-partner.ru/api/applications
 
 __Заголовки запроса__:
 ```
@@ -114,7 +114,7 @@ __Ответ:__
 
 ## Получение заявки
 
-GET https://kbm-parnter.ru/api/applications/:id
+GET https://kbm-partner.ru/api/applications/:id
 
 `:id` - id заявки в БД
 
@@ -132,7 +132,7 @@ __Ответ:__
 
 ## Получение заявок
 
-GET https://kbm-parnter.ru/api/applications?offset=__int__&limit=__int__&status=__array_of_string__&embedded=__boolean__
+GET https://kbm-partner.ru/api/applications?offset=__int__&limit=__int__&status=__array_of_string__&embedded=__boolean__
 
 `offset` - сколько заявок от начала пропустить (смещение). Опционально  
 `limit` - ограничение количества заявок. Опционально  
