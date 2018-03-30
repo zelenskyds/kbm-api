@@ -6,7 +6,7 @@
     "status": <string>, // статус заявки, см. ниже
     "paid": <boolean>, // оплачена ли заявка
     "rate": <integer>, // стоимость этой заявки
-    "createdAt": <string>, // дата создания, ms от начала эры Unix
+    "createdAt": <integer>, // дата создания, ms от начала эры Unix
     "ownerId": <integer>, // id пользователя-создателя заявки
     "policyId": <integer>, // id полиса - в нем содержится информация о водителе
 }
